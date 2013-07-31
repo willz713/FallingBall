@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Falling Ball</string>
+    <string name="level_draw">level_draw</string>
+    <string name="level_name">Level Name</string>
+    <string name="sub_level_name">Sub Level Name  Points:0</string>
+    <string name="points_">Points:</string>
+    <string name="falling_ball">Falling Ball</string>
+    <string name="level_1">Level 1</string>
+    <string name="level_2">Level 2</string>
+    <string name="level_3">Level 3</string>
+    <string name="level_4">Level 4</string>
+    <string name="level_5">Level 5</string>
+    <string name="level_6">Level 6</string>
+    <string name="level_7">Level 7</string>
+    <string name="level_8">Level 8</string>
+    <string name="play_a_level">Play a Level</string>
+    <string name="play_infinite_level">Play Infinite Level</string>
+    <string name="infinte_levels">Infinte Levels</string>
+    <string name="ok">OK</string>
+    <string name="regular_levels">Regular Levels</string>
+    <string name="play">Play</string>
+    <string name="play_pause">PLAY-PAUSE</string>
+    <string name="pause">Pause</string>
+
+</resources>

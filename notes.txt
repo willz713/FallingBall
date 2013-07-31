@@ -1,0 +1,38 @@
+
+
+===== Things to do ============
+
+- fix collision glitches
+- rename to ball drop
+- display score when you win or lose
+- collision with the side of a platform
+- 3 ball images for rolling cycle between http://stackoverflow.com/questions/5368774/make-certain-area-of-bitmap-transparent-on-touch
+
+
+	
+
+===== future ideas =================
+
+- change modes during game play every 10 seconds? 
+	-add ball 
+	-reverse controls
+	-no walls
+	-increased speed
+	-decreased speed
+	-platform varying velocities
+	-double points
+	-crumbling platforms
+	-chained balls
+
+- platforms that have different velocities
+- high scores saved to phone
+
+
+----------------------------------------
+special thanks so far
+
+http://www.deleket.com/contact.html
+replica island
+land of peace, play on loop
+
+

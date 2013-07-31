@@ -1,0 +1,50 @@
+<LevelConfiguration>
+    
+   <!-- Misc -->
+   <levelTitle>Level 3</levelTitle>   
+   <levelSubTitle>A Big Ball, No Wall</levelSubTitle> 
+   <stepRateMili>20</stepRateMili>
+   <noWalls>true</noWalls>
+   <infiniteMode>false</infiniteMode>  
+   
+   <!-- Platform -->
+   <distanceBetweenPlatforms>100</distanceBetweenPlatforms>   
+   <platformVelocity>175</platformVelocity>  
+   <platformHeight>10</platformHeight>   
+   <platformAcceleration>0</platformAcceleration> 
+   <platformMinDistanceBetween>0</platformMinDistanceBetween> 
+   
+   <!-- Ball  -->
+   <maxXVelocityRatio>7</maxXVelocityRatio>   
+   <maxYVelocityRatio>8.5</maxYVelocityRatio>   
+   <ballVelocity>999999</ballVelocity>  
+   <ballRadius>80</ballRadius> 
+   <collisionEnergyLost>2</collisionEnergyLost>
+   <ballCount>1</ballCount>
+   
+   <!-- Colors -->
+   <wallColor>GREEN</wallColor>
+   <ballColor>RED</ballColor>
+   <backgroundColor>GRAY</backgroundColor>   
+   
+   <!-- Platform -->
+   <platforms>
+       
+      <string>==-==</string>
+      <string>-===-</string>
+      <string>==-==</string>
+      <string>====-</string>
+      <string>-====</string>
+      <string>==-==</string>
+      <string>-===-</string>
+      <string>==-==</string>
+      <string>====-</string>
+      <string>-====</string>
+      <string>==-==</string>
+      <string>-===-</string>
+      <string>==-==</string>
+      <string>====-</string>
+      <string>-====</string>      
+      
+   </platforms>
+</LevelConfiguration>

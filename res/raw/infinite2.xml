@@ -1,0 +1,90 @@
+<LevelConfiguration>
+
+   <!-- Misc -->
+   <levelTitle>Level 2</levelTitle>   
+   <levelSubTitle>2 Balls</levelSubTitle> 
+   <stepRateMili>5</stepRateMili>
+   <noWalls>false</noWalls>
+   <infiniteMode>true</infiniteMode>
+   <drawScreenRate>6</drawScreenRate>
+   
+   <!-- Platform -->
+   <distanceBetweenPlatforms>325</distanceBetweenPlatforms>   
+   <platformVelocity>882</platformVelocity>  
+   <platformHeight>15</platformHeight>   
+   <platformAccelDistanceBetween>2</platformAccelDistanceBetween> 
+   <platformMinDistanceBetween>75</platformMinDistanceBetween> 
+   <platformAcceleration>.01</platformAcceleration>
+   
+   <!-- Ball  -->
+   <collisionEnergyLost>1.25</collisionEnergyLost>
+   <gravity>600</gravity>
+   
+   <!-- Colors -->
+   <platformColor>BLACK</platformColor>
+   <platformSecondaryColor>GRAY</platformSecondaryColor>
+   <ballColor>BLACK</ballColor>      
+   
+   <!-- <backgroundImage>drawable/background4</backgroundImage> -->
+   <backgroundImage>drawable/background1213</backgroundImage>         
+   
+   <!-- Load Ball Array -->
+    <ballArray>
+       
+      <ball>
+         <mass>1.0</mass>
+         <radius>40</radius>
+         <ballId>0</ballId>
+         <ballImage>drawable/ball_green</ballImage>
+         <ballXVelocityRatio>5500</ballXVelocityRatio>
+         <maxXVelocityRatio>15</maxXVelocityRatio>
+         <maxYVelocityRatio>10</maxYVelocityRatio>
+         
+         <deathAnimation>
+            <string>drawable/effect_explosion_small01</string>
+            <string>drawable/effect_explosion_small02</string>
+            <string>drawable/effect_explosion_small03</string>
+            <string>drawable/effect_smoke_big01</string>
+            <string>drawable/effect_smoke_big02</string>
+            <string>drawable/effect_smoke_big03</string>             
+         </deathAnimation>     
+         
+         <spawnAnimation>
+            <string>drawable/effect_smoke_big03</string>
+            <string>drawable/effect_smoke_big02</string>
+            <string>drawable/effect_smoke_big01</string>             
+         </spawnAnimation>         
+      </ball>
+      
+      <ball>
+         <mass>1.5</mass>
+         <radius>60</radius>
+         <ballId>1</ballId>
+         <ballImage>drawable/ball_red</ballImage>
+         <ballXVelocityRatio>6500</ballXVelocityRatio>
+         <maxXVelocityRatio>13</maxXVelocityRatio>
+         <maxYVelocityRatio>8</maxYVelocityRatio>
+         
+         <deathAnimation>
+            <string>drawable/effect_explosion_small01</string>
+            <string>drawable/effect_explosion_small02</string>
+            <string>drawable/effect_explosion_small03</string>
+            <string>drawable/effect_smoke_big01</string>
+            <string>drawable/effect_smoke_big02</string>
+            <string>drawable/effect_smoke_big03</string>             
+         </deathAnimation>            
+         
+         <spawnAnimation>
+            <string>drawable/effect_smoke_big03</string>
+            <string>drawable/effect_smoke_big02</string>
+            <string>drawable/effect_smoke_big01</string>             
+         </spawnAnimation>         
+      </ball>
+      
+   </ballArray>   
+   
+   <!-- Platform -->
+   <platforms>       
+   </platforms>
+   
+</LevelConfiguration>

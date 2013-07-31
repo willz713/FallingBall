@@ -1,0 +1,62 @@
+<LevelConfiguration>
+    
+   <!-- Misc -->
+   <levelTitle>Level 5</levelTitle>   
+   <levelSubTitle>Pink Land, Serouisly?</levelSubTitle> 
+   <stepRateMili>10</stepRateMili>
+   <noWalls>false</noWalls>
+   <infiniteMode>false</infiniteMode>
+   
+   <!-- Platform -->
+   <distanceBetweenPlatforms>50</distanceBetweenPlatforms>   
+   <platformVelocity>175</platformVelocity>  
+   <platformHeight>10</platformHeight>     
+   <platformAcceleration>0</platformAcceleration> 
+   <platformMinDistanceBetween>0</platformMinDistanceBetween> 
+   
+   <!-- Ball  -->
+   <maxXVelocityRatio>17</maxXVelocityRatio>   
+   <maxYVelocityRatio>8.5</maxYVelocityRatio>   
+   <ballVelocity>99999</ballVelocity>  
+   <ballRadius>40</ballRadius> 
+   <collisionEnergyLost>1.5</collisionEnergyLost>
+   <ballCount>1</ballCount>
+   
+   <!-- Colors -->
+   <wallColor>CYAN</wallColor>
+   <ballColor>DARKGRAY</ballColor>
+   <backgroundColor>PINK</backgroundColor>   
+   
+   <!-- Platform -->
+   <platforms>
+       
+      <string>==-==</string>
+      <string>-===-</string>
+      <string>==-==</string>
+      <string>====-</string>
+      <string>-====</string>
+      <string>==-==</string>
+      <string>-===-</string>
+      <string>==-==</string>
+      <string>====-</string>
+      <string>-====</string>
+      <string>==-==</string>
+      <string>-===-</string>
+      <string>==-==</string>
+      <string>====-</string>
+      <string>-====</string>      
+      <string>==-==-==</string>      
+      <string>-==-==-</string>      
+      <string>==-==-==</string>      
+      <string>-==-==-</string>      
+      <string>==-==-==</string>      
+      <string>-==-==-</string>      
+      <string>==-==-==</string>      
+      <string>-==-==-</string>      
+      <string>====-</string>
+      <string>-====</string>  
+      <string>====-</string>
+      <string>-====</string>    
+      
+   </platforms>
+</LevelConfiguration>

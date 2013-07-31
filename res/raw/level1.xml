@@ -1,0 +1,54 @@
+<LevelConfiguration>
+    
+   <!-- Misc -->
+   <levelTitle>Level 1</levelTitle>   
+   <levelSubTitle>Tutorial (Easy)</levelSubTitle> 
+   <stepRateMili>10</stepRateMili>
+   <noWalls>false</noWalls>
+   <infiniteMode>false</infiniteMode>
+   <drawScreenRate>2</drawScreenRate>
+   
+   <!-- Platform -->
+   <distanceBetweenPlatforms>100</distanceBetweenPlatforms>   
+   <platformVelocity>300</platformVelocity>  
+   <platformHeight>10</platformHeight>   
+   <platformAcceleration>0</platformAcceleration> 
+   <platformMinDistanceBetween>0</platformMinDistanceBetween> 
+   
+   <!-- Ball  -->
+   <maxXVelocityRatio>17</maxXVelocityRatio>   
+   <maxYVelocityRatio>8.5</maxYVelocityRatio>   
+   <ballVelocity>999999</ballVelocity>  
+   <ballRadius>40</ballRadius> 
+   <collisionEnergyLost>1.5</collisionEnergyLost>
+   <ballCount>1</ballCount>
+   
+   <!-- Colors -->
+   <wallColor>GRAY</wallColor>
+   <ballColor>BLACK</ballColor>
+   <backgroundColor>WHITE</backgroundColor>
+   
+   
+   <!-- Platform -->
+   <platforms>
+       
+      <string>==-==</string>
+      <string>-===-</string>
+      <string>==-==</string>
+      <string>====-</string>
+      <string>-====</string>
+      <string>==-==</string>
+      <string>-===-</string>
+      <string>==-==</string>
+      <string>====-</string>
+      <string>-====</string>
+      <string>==-==</string>
+      <string>====-</string>
+      <string>-====</string>      
+      <string>====-</string>
+      <string>-====</string>      
+      <string>====-</string>
+      <string>-====</string>      
+      
+   </platforms>
+</LevelConfiguration>

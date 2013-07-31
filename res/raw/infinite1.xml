@@ -1,0 +1,34 @@
+<LevelConfiguration>
+    
+   <!-- Misc -->
+   <levelTitle>Level 1</levelTitle>   
+   <levelSubTitle>Infinite, $50 If you win</levelSubTitle> 
+   <stepRateMili>20</stepRateMili>
+   <noWalls>false</noWalls>
+   <infiniteMode>true</infiniteMode>   
+   
+   <!-- Platform -->
+   <distanceBetweenPlatforms>66</distanceBetweenPlatforms>   
+   <platformVelocity>175</platformVelocity>  
+   <platformHeight>10</platformHeight>  
+   <platformAcceleration>.33</platformAcceleration> 
+   <platformMinDistanceBetween>20</platformMinDistanceBetween> 
+   
+   <!-- Ball  -->
+   <maxXVelocityRatio>17.5</maxXVelocityRatio>   
+   <maxYVelocityRatio>8.5</maxYVelocityRatio>   
+   <ballVelocity>99999</ballVelocity>  
+   <ballRadius>40</ballRadius> 
+   <collisionEnergyLost>1.5</collisionEnergyLost>
+   <ballCount>1</ballCount>
+   
+   <!-- Colors -->
+   <wallColor>BLACK</wallColor>
+   <ballColor>DARKGRAY</ballColor>
+   <backgroundColor>LIGHTGRAY</backgroundColor>   
+   
+   <!-- Platform -->
+   <platforms>  
+      
+   </platforms>
+</LevelConfiguration>
