@@ -121,7 +121,10 @@ public class TitleScreenActivity extends Activity implements OnClickListener
 
 	public class DialogButtonClickHandler implements DialogInterface.OnClickListener
 	{
-		public void onClick( DialogInterface dialog, int clicked ) {	
+		public void onClick( DialogInterface dialog, int clicked ) {
+			Intent intent = new Intent(getApplicationContext(), MyFirstTriangleAndroid.class);
+			startActivity(intent);
+/*
 			Intent intent = new Intent(getApplicationContext(), LevelActivity.class);
 			if(selectionMode == SELECTION_MODE.REGULAR_LEVEL)
 			{										
@@ -139,6 +142,7 @@ public class TitleScreenActivity extends Activity implements OnClickListener
 				startActivity(intent);	
 				infiniteDialog.dismiss();
 			}	
+*/
 		}
 	}
 
