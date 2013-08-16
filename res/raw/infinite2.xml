@@ -6,7 +6,7 @@
    <stepRateMili>5</stepRateMili>
    <noWalls>false</noWalls>
    <infiniteMode>true</infiniteMode>
-   <drawScreenRate>6</drawScreenRate>
+   <drawScreenRate>1</drawScreenRate>
    
    <!-- Platform -->
    <distanceBetweenPlatforms>325</distanceBetweenPlatforms>   

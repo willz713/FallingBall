@@ -121,8 +121,12 @@ public class TitleScreenActivity extends Activity implements OnClickListener
 
 	public class DialogButtonClickHandler implements DialogInterface.OnClickListener
 	{
-		public void onClick( DialogInterface dialog, int clicked ) {
-			Intent intent = new Intent(getApplicationContext(), MyFirstTriangleAndroid.class);
+		public void onClick( DialogInterface dialog, int clicked )
+		{
+			
+			Intent intent = new Intent(getApplicationContext(), GdxLevelApplication.class);
+			INFINITE_LEVEL selectedLevel = INFINITE_LEVEL.getLevelforInt(1);			
+			intent.putExtra(START_LEVEL_WITH_RESOURCE_ID,selectedLevel.getResourceId());
 			startActivity(intent);
 /*
 			Intent intent = new Intent(getApplicationContext(), LevelActivity.class);

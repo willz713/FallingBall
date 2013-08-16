@@ -223,7 +223,7 @@ public class LevelActivity extends Activity implements SensorEventListener,Obser
 			}
 
 		}
-	};
+	}
 
 	//note once this is called you cannot un-pause it
 	private void stopStepThread()
